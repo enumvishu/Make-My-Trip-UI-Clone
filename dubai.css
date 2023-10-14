@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato";
+    color: rgb(70, 69, 69);
+    
+
+}
+header{
+    height: 60px;
+    padding-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+header>a>#logo{
+    height: 40px;
+    width:45px;
+    background-image: url(logo-short.jpg);
+    background-size: contain;
+    position: absolute;
+    left: 250px;
+}
+header>a>#make{
+    position: absolute;
+    left: 200px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #224b7b;
+    padding-top: 5px;
+}
+header>a>#trip{
+    position: absolute;
+    left: 295px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #224b7b;
+    padding-top: 5px;
+}
+
+
+#bg-img{
+    height: 400px;
+    width: auto;
+    background-image: url(dubai\ banner.avif);
+    display: flex;
+}
+
+#heart-cntr{
+    height: 1300px;
+    width: 100%;
+    border: none solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+#heart-cntr>h3{
+    position: absolute;
+    color: #2F2F2F;
+    margin-top: -1160px;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+
+#pt{
+
+    height:1150px;
+    width: 80%;
+    margin-top: 100px;
+    background-color:white;
+    border: none solid 2px;
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-rows:350px 350px 350px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+ #pt>div{
+    border: 2px solid none ;
+    background-color: white;
+    background-image: url(white-flower.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.456);
+  
+        
+}
+
+ #pt>div>#img{
+    width: 95%;
+    height: 71%;
+    border: 1px solid none;
+    border-radius: 10px;
+    margin: 7px auto;
+    background-size: cover;
+ }
+
+ #pt>div>#text{
+    width: 90%;
+    height: 20%;
+    margin: 10px auto;
+    text-align: center;
+    color: #2F2F2F;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    border: 1px solid none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+ }
+ #pt>#Emirates>#img{
+    background-image: url(EmiratesGrand.avif);
+ }
+#pt>#Number-one>#img{
+    background-image: url(Number-one.avif);
+ }
+   #pt>#Millennium>#img{
+    background-image: url(Millennium.avif);
+ }
+
+   #pt>#Rove>#img{
+    background-image: url(Rove.avif);
+ }
+
+   #pt>#Manzil>#img{
+    background-image: url(Manzil.avif);
+ }
+
+   #pt>#Ramada>#img{
+    background-image: url(Ramada.avif);
+ }
+
+   #pt>#sky-view>#img{
+    background-image: url(sky-view.avif);
+ }
+
+   #pt>#taj-dubai>#img{
+    background-image: url(taj-dubai.avif);
+ }
+
+   #pt>#Boulevard>#img{
+    background-image: url(Boulevard.avif);
+ }
+
+   #pt>#palace-downtown>#img{
+    background-image: url(palace-downtown.avif);
+ }
+
+   #pt>#fountain-view>#img{
+    background-image: url(fountain-view.avif);
+ }
+
+   #pt>#dusit-thani>#img{
+    background-image: url(DusitThani-020523.avif);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #1e3459;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+
+}
+footer>div
+{
+    color: white;
+    height: auto;
+    width: auto;
+    border: none 1px solid;
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    

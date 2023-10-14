@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato";
+    color: rgb(70, 69, 69);
+    background-color: #e9f3ed;
+}
+header{
+    height: 60px;
+    padding-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+header>a>#logo{
+    height: 40px;
+    width:45px;
+    background-image: url(logo-short.jpg);
+    background-size: contain;
+    position: absolute;
+    left: 250px;
+}
+header>a>#make{
+    position: absolute;
+    left: 200px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #224b7b;
+    padding-top: 5px;
+}
+header>a>#trip{
+    position: absolute;
+    left: 295px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #224b7b;
+    padding-top: 5px;
+}
+#main-cntr{
+    height: 400px;
+    width: 1100px;
+
+    border: none solid 1px;
+    margin: 150px auto;
+    border: none 1px solid;
+    position: relative;
+
+
+
+
+}
+
+#mobile-verify{
+
+
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    
+}
+
+#mobile-verify>#input{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+#mobile-verify>#input>input{
+    border: none;
+    outline: none;
+    border-bottom: #c2c2c2 solid 1px;
+    height: 100%;
+    width: 400px;
+    font-size: 16px;
+    color: #9aa6ae;
+    font-weight: 400;
+
+}
+
+#mobile-verify>#input>input:hover{
+
+     border-bottom: #1b9152 solid 1px;
+}
+
+#mobile-verify>h4{
+    color: #022135;
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    line-height:35px;
+    word-spacing: 2px;
+}
+
+
+
+
+#verify-button{
+    height: 50px;
+    width: 400px;
+    background-color: #1b9152;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    margin: 170px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+#left-side{
+    height: 250px;
+    width: 520px;
+    border: none solid 2px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+#left-side>.txt{
+    color: #022135;
+    font-size: 46px;
+    font-weight: 900;
+    text-decoration:none solid rgb(2, 33, 53);
+}
+
+.grid-section{
+    padding-top: 20px;
+    height: 100px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 60px 60px;
+    grid-template-columns: 200px 200px;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.grid-section>div{
+    border: none 1px solid;
+    display: flex;
+    align-items: center;
+}
+
+.grid-section>div>#icon{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.grid-section>div>#txt{
+    padding-left: 20px;
+    color: #022135;
+    
+}
+
+
+
+

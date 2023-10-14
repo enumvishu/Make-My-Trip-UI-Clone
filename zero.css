@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato";
+    color: rgb(70, 69, 69);
+    
+
+}
+header{
+    height: 60px;
+    padding-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+header>a>#logo{
+    height: 40px;
+    width:45px;
+    background-image: url(logo-short.jpg);
+    background-size: contain;
+    position: absolute;
+    left: 250px;
+}
+header>a>#make{
+    position: absolute;
+    left: 200px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #224b7b;
+    padding-top: 5px;
+}
+header>a>#trip{
+    position: absolute;
+    left: 295px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #224b7b;
+    padding-top: 5px;
+}
+
+
+#bg-img{
+    height: 400px;
+    width: auto;
+    background-image: url(zero-banner.avif);
+    display: flex;
+}
+
+#heart-cntr{
+    position: relative;
+    width: 80%;
+    height: 1000px;
+    border: none solid 1px;
+    margin: 80px auto;
+
+
+}
+
+#heart-cntr>h3{
+   text-align: center;
+   line-height: 26px;
+   color: #333333;
+
+}
+
+.top{
+    height: 340px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    margin: 40px auto;
+    display: flex;
+    position: absolute;
+}
+
+
+.top>#txt{
+    height: auto;
+    width: auto;
+    margin: 40px auto;
+    font-size: 26px;
+    color: #174880;
+    font-weight: 900;
+
+}
+
+.top>#steps{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 110px;
+    border: none solid 2px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+#steps>div{
+    height: 200px;
+    width: 26%;
+    border: 1px solid none;
+    position: relative;
+}
+.txt{
+    height: 40px;
+    width: 110px;
+    background-color: #174880;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.desc{
+    color: black;
+    font-size: 24px;
+    line-height: 36px;
+     position: absolute; 
+     top: 70px;
+}
+
+.step1,.step2{
+    border-right: 1px solid #cccccc;
+}
+
+#refund-arrow1,#refund-arrow2,#refund-arrow3,#refund-arrow4{
+    
+    height: 60px;
+    width: 30px;
+    position: absolute;
+    border: 1px solid none;
+    top: 180px;
+    left:382.4px;
+    background-image: url(refund-fc-arrow.png);
+    background-size: cover;
+}
+#refund-arrow2,#refund-arrow4{
+    position: absolute;
+    left: 765px;
+}
+
+.bottom{
+    height: 340px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    margin: 420px auto;
+    display: flex;
+     position: absolute;
+}
+.bottom>#txt{
+    height: auto;
+    width: auto;
+    margin: 40px auto;
+    font-size: 26px;
+    color: #174880;
+    font-weight: 900;
+
+}
+
+.bottom>#steps{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    top: 110px;
+    border: none solid 2px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#book-now{
+    height: 50px;
+    width: 187.5px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #45a2fc, #1f76f6);
+    background-size: 100% 100%;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 25px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 22px;
+     position: absolute;
+     top: 880px;
+     left: 505px;
+
+}
+
+#t-c{
+     position: absolute;
+     top: 935px;
+     left: 555px
+     
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #1e3459;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+
+}
+footer>div
+{
+    color: white;
+    height: auto;
+    width: auto;
+    border: none 1px solid;
+
+
+}
